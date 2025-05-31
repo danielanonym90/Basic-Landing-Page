@@ -332,8 +332,14 @@ header nav ul li:hover::after {
 }
 
 @media (max-width: 600px) {
+
+    html,
     body {
-        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow: hidden;
     }
 
     header nav ul {
@@ -348,8 +354,8 @@ header nav ul li:hover::after {
         padding: 20px;
         gap: 1rem;
 
-    position: relative;
-    /*
+        position: relative;
+        /*
     width: 90vw;
     top: 0;
     padding: 20px 50px;
@@ -426,20 +432,20 @@ header nav ul li:hover::after {
 
 
 
-.arrow-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(0, 247, 255, 0.3);
-}
+    .arrow-btn {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(0, 247, 255, 0.3);
+    }
 
-.arrow-btn:hover {
-    box-shadow: 0 0 10px #00f7ff;
-    background-color: rgba(0, 247, 255, 0.3);
+    .arrow-btn:hover {
+        box-shadow: 0 0 10px #00f7ff;
+        background-color: rgba(0, 247, 255, 0.3);
 
-}
+    }
 
 }
 
