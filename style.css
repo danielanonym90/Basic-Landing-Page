@@ -405,8 +405,8 @@ header nav ul li:hover::after {
 
     .list {
         display: flex;
-        top: 10px;
-
+        top: 0;
+        
 
     }
 
@@ -439,29 +439,19 @@ header nav ul li:hover::after {
         align-items: center;
 
         height: auto;
-        padding-bottom: 100px;
+        padding-bottom: 0;
     }
 
     .container {
         overflow: visible;
         position: relative;
-        max-width: 100%;
         width: 100%;
         height: 200vh;
 
 
     }
 
-    .indicator {
-        padding-top: 200px;
-        left: 50%;
-        transform: translateX(-50%);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        z-index: 5;
-        margin-top: 0;
-    }
+    
 
 
 
